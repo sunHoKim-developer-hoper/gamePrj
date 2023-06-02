@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css">
+    <script type="module" src="./app.js"></script>
+    <style>
+        body{
+            margin: 0;
+        }
+        .d-none{
+            display: none;
+        }
+        @import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+        @font-face {
+            font-family: 'NeoDunggeunmo';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'RIDIBatang';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <audio src="./sound/Countdown Sound Effect .mp3" id="countdown" ></audio>
+    <audio loop src="./sound/bgm.mp3" id="bgm" autoplay></audio>
+    <audio src="./sound/button-1.mp3" id="correctsound" autoplay></audio>
+    <audio src="./sound/button-10.mp3" id="wrongsound" autoplay></audio>
+    <img src="./image/new-character.png" id="character" style="display: none;">
+    <img src="./image/bg.png" id="bg" style="display: none;">
+    <img src="./image/heart.png" id="life" style="display: none;">
+    <img src="./image/c.png" id="finaldlg" style="display: none;">
+    <img src="./image/dialogue.png" id="dialogue" style="display: none;">
+    <canvas class="game-canvas" width="1000" height="702" tabindex="0"></canvas>
+    <canvas class="barack-canvas d-none" width="1000" height="702" tabindex="0"></canvas>
+</body>
+</html>

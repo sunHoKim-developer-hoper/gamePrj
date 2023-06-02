@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--  부품이 먼저 필요하다!  -->
+    <!-- <script src="./item/background.js"></script>
+    <script src = "./item/boy.js"></script>
+    <script src="./item/enemy.js"></script>
+    <script src="./panel/game-canvas.js"></script> -->
+    <script type="module" src="app.js"></script>
+    <style>
+        body {
+            margin:0;
+        }
+        .d-none{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <img src="./image/boy.png" id="boy" style="display: none"/>
+    <img src="./image/map.png" id="bg" style="display: none">
+    <img src="./image/enemy.png" id="enemy" style="display: none;">
+    <img src="./image/explosion.jpg" id="fire" style="display: none;">
+
+    <div tabindex="0"></div>
+    <canvas class="game-canvas" width="800" height="700" tabindex="0" ></canvas>
+    <canvas class="rank-canvas d-none" width="500" height="700" tabindex="1"></canvas>
+    
+ 
+
+
+
+</body>
+</html>

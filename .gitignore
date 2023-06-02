@@ -1,0 +1,10 @@
+# Editor directories and files
+.vscode/extensions.json
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode
